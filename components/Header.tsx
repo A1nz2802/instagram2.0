@@ -64,7 +64,7 @@ const Header = () => {
           <HeartIcon className="navBtn" />
 
           <img 
-            src="https://i.imgur.com/WJm2sb0.jpg?2" 
+            src="https://i.imgur.com/8aGvu09.jpg" 
             alt="profile pic" 
             className="h-10 rounded-full cursor-pointer"
           />
