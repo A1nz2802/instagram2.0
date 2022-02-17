@@ -78,14 +78,14 @@ const Header = () => {
       
                 <img
                   onClick={ () => signOut()}
-                  src={ session.user!.image! }
+                  src={ session.user?.image! }
                   alt="profile pic" 
                   className="h-10 w-10 rounded-full cursor-pointer"
                 />
               </>
 
             ): (
-              <button onClick={ () => signIn() }>Sing In</button>
+              <button onClick={ () => router.push('/auth/signin') }>Sing In</button>
             )
           }
 
